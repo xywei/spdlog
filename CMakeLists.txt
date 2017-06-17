@@ -17,7 +17,7 @@ endif()
 add_library(spdlog INTERFACE)
 
 option(SPDLOG_BUILD_EXAMPLES "Build examples" OFF)
-option(SPDLOG_BUILD_TESTING "Build spdlog tests" ON)
+option(SPDLOG_BUILD_TESTING "Build spdlog tests" OFF)
 
 target_include_directories(
     spdlog
